@@ -73,12 +73,12 @@ public class PersonTest {
     public void test3() {
         Person person = new Person(0001,
                 "loshka",
-                "12345",
+                "123457",
                 "lol54321@gmail.com",
                 "Klavdiy Oleh",
                 25,
                 "+805-426-4917",
-                997114,
+                -1,
                 4,
                 new String[]{"Playing piano", "Cooking", "Drawing"});
         Set<ConstraintViolation<Person>> constraintViolations =
@@ -86,7 +86,7 @@ public class PersonTest {
 
         Assert.assertEquals( 1, constraintViolations.size() );
         Assert.assertEquals(
-                "must be greater than 6",
+                "must be greater than 0",
                 constraintViolations.iterator().next().getMessage()
         );
     }
