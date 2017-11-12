@@ -41,7 +41,7 @@ public class PersonTest {
 
         Assert.assertEquals( 1, constraintViolations.size() );
         Assert.assertEquals(
-                "должно быть задано",
+                "must not be null",
                 constraintViolations.iterator().next().getMessage()
         );
     }
@@ -86,7 +86,7 @@ public class PersonTest {
 
         Assert.assertEquals( 1, constraintViolations.size() );
         Assert.assertEquals(
-                "размер должен быть между 6 и 2147483647",
+                "must be greater than 6",
                 constraintViolations.iterator().next().getMessage()
         );
     }
@@ -109,7 +109,7 @@ public class PersonTest {
 
         Assert.assertEquals( 1, constraintViolations.size() );
         Assert.assertEquals(
-                "должно быть задано",
+                "must not be null",
                 constraintViolations.iterator().next().getMessage()
         );
     }
