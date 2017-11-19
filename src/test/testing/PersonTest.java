@@ -9,8 +9,6 @@ import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
 import javax.validation.ValidatorFactory;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Set;
 
 
@@ -98,12 +96,21 @@ public class PersonTest {
                 "loshka",
                 "123456",
                 "lol54321@gmail.com",
-                null,
+                "Klavdiy Oleh",
                 25,
                 "+805-426-4917",
                 997114,
                 5,
                 new String[]{"Playing piano", "Cooking", "Drawing"});
+
+        person.setId(0002);
+        person.setPassword("1234567546");
+        person.setEmail("falseMail@gmail.com");
+        person.setFullName(null);
+        person.setAge(26);
+        person.setPhone("+805-427-4917");
+        person.setMoney(1001344);
+        person.setNumVisit(44);
         Set<ConstraintViolation<Person>> constraintViolations =
                 validator.validate( person );
 
