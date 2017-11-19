@@ -103,14 +103,14 @@ public class PersonTest {
                 5,
                 new String[]{"Playing piano", "Cooking", "Drawing"});
 
-        person.setId(0002);
-        person.setPassword("1234567546");
-        person.setEmail("falseMail@gmail.com");
+        person.setId(person.getId() + 1);
+        person.setPassword(person.getPassword() + "7");
+        person.setEmail(person.getEmail().replace('l', 'k'));
         person.setFullName(null);
-        person.setAge(26);
-        person.setPhone("+805-427-4917");
-        person.setMoney(1001344);
-        person.setNumVisit(44);
+        person.setAge(person.getAge() + 1);
+        person.setPhone(person.getPhone().replace('5','6'));
+        person.setMoney(person.getMoney() + 15000);
+        person.setNumVisit(person.getNumVisit() + 10);
         Set<ConstraintViolation<Person>> constraintViolations =
                 validator.validate( person );
 

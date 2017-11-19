@@ -88,8 +88,8 @@
       <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/testing/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="229">
+              <caret line="112" column="52" lean-forward="false" selection-start-line="112" selection-start-column="52" selection-end-line="112" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -485,8 +485,8 @@
         <option value="$PROJECT_DIR$/src/test/java/testing/PersonTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/test/testing/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/test/testing/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/test/testing/PersonTest.java" />
       </list>
     </option>
   </component>
@@ -994,8 +994,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/testing/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="229">
+          <caret line="112" column="52" lean-forward="false" selection-start-line="112" selection-start-column="52" selection-end-line="112" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
