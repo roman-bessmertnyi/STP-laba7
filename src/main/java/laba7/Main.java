@@ -11,6 +11,14 @@ public class Main {
     public static void main(String[] args) throws Exception {
         long time = System.nanoTime();
 
+        ArrayList<Person> personList = createPersonList();
+
+        System.out.println((System.nanoTime() - time) * Math.pow(10, -6) + " millisec");
+        getMemoryConsumption();
+    }
+
+    public static ArrayList<Person> createPersonList()
+    {
         ArrayList<Person> personList = new ArrayList<>();
         Person person = new Person(0001,
                 "loshka",
@@ -44,11 +52,8 @@ public class Main {
                 4100,
                 63,
                 new String[]{"Drawing", "Music listening"});
-        System.out.println((System.nanoTime() - time) * Math.pow(10, -6) + " millisec");
-        getMemoryConsumption();
+        return personList;
     }
-
-
 
 
     private static void getMemoryConsumption() {
